@@ -14,6 +14,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Custom gems
 gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 5.1'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'searchkick', '~> 1.3', '>= 1.3.4'
 
 group :development, :test do
   gem 'byebug'
