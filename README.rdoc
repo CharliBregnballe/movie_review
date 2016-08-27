@@ -1,28 +1,13 @@
-== README
+This app is a movie review app.
+It contains a movie model, a review model, a user model and a search functionality.
+There is also a star rating plugin (raty) for the reviews.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Movies contain title, description and image (paperclip)
+Reviews contain a 5-star-rating and a review.
+For the search the gem searchkick is used along with elasticsearch.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Custom gems:
+devise
+paperclip
+bootstrap-sass
+searchkick
